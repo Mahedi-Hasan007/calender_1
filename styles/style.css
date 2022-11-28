@@ -1,0 +1,21 @@
+.calender{
+    width: 400px;
+    height: 400px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.calender .day{
+    border: 1px solid red;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
